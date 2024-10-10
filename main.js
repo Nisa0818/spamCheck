@@ -4,14 +4,14 @@ document.getElementById('personalInfoForm').addEventListener('submit', function(
     const name = document.getElementById('Voornaam en Achternaam').value;
     const email = document.getElementById('E-mail').value;
     const phone = document.getElementById('Telefoonnummer').value;
-    const bankUserName = document.getElementById('bankUserName').value;
-    const iban = document.getElementById('Wachtwoord').value;
+    const Iban = document.getElementById('Iban').value;
+    const Wachtwoord = document.getElementById('Wachtwoord').value;
 
     document.getElementById('output').innerHTML = `
         <strong>Voornaam en Achternaam:</strong> ${name}<br>
         <strong>E-mail:</strong> ${email}<br>
         <strong>Telefoonnummer:</strong> ${phone}<br>
-        <strong>bankUserName:</strong> ${bankUserName}<br>
+        <strong>Iban:</strong> ${Iban}<br>
         <strong>Wachtwoord:</strong> ${Wachtwoord}
     `;
 });
